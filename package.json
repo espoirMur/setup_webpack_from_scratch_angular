@@ -1,0 +1,36 @@
+{
+  "name": "first-angular-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --port=4201"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/compiler": "^8.2.0",
+    "@angular/compiler-cli": "^8.2.2",
+    "@angular/core": "^8.2.0",
+    "@angular/platform-browser": "^8.2.0",
+    "@angular/platform-browser-dynamic": "^8.2.0",
+    "@ngtools/webpack": "^8.2.1",
+    "copy-webpack-plugin": "^5.0.4",
+    "core-js": "^3.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "rxjs": "^6.5.2",
+    "script-ext-html-webpack-plugin": "^2.1.4",
+    "systemjs": "^5.0.0",
+    "webpack": "^4.39.1",
+    "zone.js": "^0.10.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "typescript": "^3.5.3",
+    "webpack-cli": "^3.3.6"
+  }
+}
